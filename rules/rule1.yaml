@@ -1,11 +1,11 @@
 ---
 name: on_hello_event1
-pack: Practice
-description: Sample rule firing on Practice.event1.
+pack: practice
+description: Sample rule firing on practice.event1.
 enabled: true
 trigger:
-    type: Practice.event1
+    type: practice.event1
 action:
-    ref: Practice.greet
+    ref: practice.greet
     parameters:
         greeting: Yo

@@ -1,7 +1,7 @@
 ---
 name: greet
-pack: Practice
+pack: practice
 description: "Greet StackStorm"
-action_ref: "Practice.greet"
+action_ref: "practice.greet"
 formats:
   - "greet {{greeting}}"
